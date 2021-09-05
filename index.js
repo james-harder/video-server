@@ -10,7 +10,7 @@ if ( !process.env.PORT ) {
 const port = process.env.PORT;
 
 app.get( "/", (req,res) => {
-    res.send("Hello world.");
+    res.send("Please try <a href='video/'>video/</a> for a more complete result. Thank you.");
 });
 
 app.get("/video", (req,res) => {
